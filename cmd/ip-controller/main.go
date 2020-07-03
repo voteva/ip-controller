@@ -2,11 +2,10 @@ package main
 
 import (
 	"flag"
-	"git.ozon.dev/tvoteva/22_ide/homework/internal/app/server"
-	"git.ozon.dev/tvoteva/22_ide/homework/internal/app/store/db"
-	"git.ozon.dev/tvoteva/22_ide/homework/internal/config"
+	"github.com/voteva/ip-controller/internal/app/server"
+	"github.com/voteva/ip-controller/internal/app/store/db"
+	"github.com/voteva/ip-controller/internal/config"
 	"github.com/BurntSushi/toml"
-	_ "github.com/lib/pq"
 	"log"
 )
 

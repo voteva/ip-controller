@@ -2,7 +2,7 @@ package server
 
 import (
 	"encoding/json"
-	"git.ozon.dev/tvoteva/22_ide/homework/pkg/model"
+	"github.com/voteva/ip-controller/pkg/model"
 	"net"
 	"net/http"
 )

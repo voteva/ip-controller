@@ -1,4 +1,4 @@
-module git.ozon.dev/tvoteva/22_ide/homework
+module github.com/voteva/ip-controller
 
 go 1.14
 

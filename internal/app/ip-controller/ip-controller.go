@@ -3,10 +3,10 @@ package ip_controller
 import (
 	"context"
 	"fmt"
-	keys "git.ozon.dev/tvoteva/22_ide/homework/internal/app/constants"
-	"git.ozon.dev/tvoteva/22_ide/homework/internal/app/store"
-	"git.ozon.dev/tvoteva/22_ide/homework/internal/app/store/db"
-	"git.ozon.dev/tvoteva/22_ide/homework/pkg/model"
+	keys "github.com/voteva/ip-controller/internal/app/constants"
+	"github.com/voteva/ip-controller/internal/app/store"
+	"github.com/voteva/ip-controller/internal/app/store/db"
+	"github.com/voteva/ip-controller/pkg/model"
 	"time"
 )
 

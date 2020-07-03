@@ -2,7 +2,7 @@ package server
 
 import (
 	"errors"
-	ip_controller "git.ozon.dev/tvoteva/22_ide/homework/internal/app/ip-controller"
+	ip_controller "github.com/voteva/ip-controller/internal/app/ip-controller"
 	"github.com/go-chi/chi"
 	"net/http"
 )

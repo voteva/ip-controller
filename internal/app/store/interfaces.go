@@ -2,7 +2,7 @@ package store
 
 import (
 	"context"
-	"git.ozon.dev/tvoteva/22_ide/homework/internal/app/entity"
+	"github.com/voteva/ip-controller/internal/app/entity"
 )
 
 type Store interface {
