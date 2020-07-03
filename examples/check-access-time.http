@@ -1,0 +1,5 @@
+POST http://localhost:7000/v1/check-access-time
+
+{
+  "ip": "127.0.0.1"
+}
