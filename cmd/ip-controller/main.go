@@ -4,7 +4,7 @@ import (
 	"flag"
 	"github.com/BurntSushi/toml"
 	"github.com/voteva/ip-controller/internal/app/config"
-	"github.com/voteva/ip-controller/internal/app/server"
+	"github.com/voteva/ip-controller/internal/app/api"
 	"github.com/voteva/ip-controller/internal/app/store/db"
 	"log"
 )
@@ -30,7 +30,7 @@ func main() {
 	}
 	defer db.Close()
 
-	srv := server.New(conf.BindAddr)
+	srv := api.New(conf.BindAddr)
 	if err := srv.Start(); err != nil {
 		log.Fatal(err)
 	}
