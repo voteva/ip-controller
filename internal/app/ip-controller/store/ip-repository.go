@@ -4,8 +4,8 @@ import (
 	"context"
 	"database/sql"
 	"errors"
-	keys "github.com/voteva/ip-controller/internal/app/constants"
-	"github.com/voteva/ip-controller/internal/app/entity"
+	keys "github.com/voteva/ip-controller/internal/app/ip-controller/constants"
+	"github.com/voteva/ip-controller/internal/app/ip-controller/entity"
 )
 
 type ipRepository struct {

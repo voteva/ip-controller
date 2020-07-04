@@ -2,22 +2,22 @@ package server
 
 import (
 	"errors"
-	ip_controller "github.com/voteva/ip-controller/internal/app/ip-controller"
 	"github.com/go-chi/chi"
+	"github.com/voteva/ip-controller/internal/app/ip-controller/service"
 	"net/http"
 )
 
 type server struct {
 	addr      string
 	router    *chi.Mux
-	ipService ip_controller.IpService
+	ipService service.IpService
 }
 
 func New(addr string) *server {
 	s := &server{
 		addr:      addr,
 		router:    chi.NewRouter(),
-		ipService: ip_controller.New(),
+		ipService: service.New(),
 	}
 	s.configRouter()
 	return s

@@ -1,4 +1,4 @@
-package ip_controller
+package service
 
 import (
 	"context"
