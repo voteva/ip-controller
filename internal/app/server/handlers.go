@@ -3,7 +3,7 @@ package server
 import (
 	"context"
 	"encoding/json"
-	keys "github.com/voteva/ip-controller/internal/app/ip-controller/constants"
+	keys "github.com/voteva/ip-controller/internal/app/constants"
 	"github.com/voteva/ip-controller/pkg/model"
 	"net/http"
 )

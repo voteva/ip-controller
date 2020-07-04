@@ -3,9 +3,9 @@ package service
 import (
 	"context"
 	"fmt"
-	keys "github.com/voteva/ip-controller/internal/app/ip-controller/constants"
-	"github.com/voteva/ip-controller/internal/app/ip-controller/store"
-	"github.com/voteva/ip-controller/internal/app/ip-controller/store/db"
+	keys "github.com/voteva/ip-controller/internal/app/constants"
+	"github.com/voteva/ip-controller/internal/app/store"
+	"github.com/voteva/ip-controller/internal/app/store/db"
 	"github.com/voteva/ip-controller/pkg/model"
 	"time"
 )

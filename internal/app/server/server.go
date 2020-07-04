@@ -3,7 +3,7 @@ package server
 import (
 	"errors"
 	"github.com/go-chi/chi"
-	"github.com/voteva/ip-controller/internal/app/ip-controller/service"
+	"github.com/voteva/ip-controller/internal/app/service"
 	"net/http"
 )
 

@@ -3,9 +3,9 @@ package main
 import (
 	"flag"
 	"github.com/BurntSushi/toml"
-	"github.com/voteva/ip-controller/internal/app/ip-controller/config"
-	"github.com/voteva/ip-controller/internal/app/ip-controller/server"
-	"github.com/voteva/ip-controller/internal/app/ip-controller/store/db"
+	"github.com/voteva/ip-controller/internal/app/config"
+	"github.com/voteva/ip-controller/internal/app/server"
+	"github.com/voteva/ip-controller/internal/app/store/db"
 	"log"
 )
 
